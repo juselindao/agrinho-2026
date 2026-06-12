@@ -1,0 +1,53 @@
+/* ==========================================================================
+   1. CONFIGURAÇÕES GERAIS E RESETS
+   ========================================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth; /* Suaviza o clique no menu de navegação */
+}
+
+:root {
+    --verde-escuro: #1b5e20;
+    --verde-principal: #2e7d32;
+    --verde-claro: #81c784;
+    --verde-fundo: #eef5ed;
+    --branco: #ffffff;
+    --grafite: #333333;
+    --sombra: rgba(0, 0, 0, 0.1);
+}
+
+body {
+    color: var(--grafite);
+    line-height: 1.6;
+    background-color: #fafafa;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+/* ==========================================================================
+   2. CABEÇALHO E NAVEGAÇÃO
+   ========================================================================== */
+header {
+    background-color: var(--verde-principal);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px var(--sombra);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header h1 {
+    color
